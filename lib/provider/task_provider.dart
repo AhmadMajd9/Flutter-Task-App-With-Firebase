@@ -39,7 +39,7 @@ class TasksProvider with ChangeNotifier {
 
   String taskStatuSwitcher(TaskStatus value) {
     switch (value) {
-      case TaskStatus.toDo:
+      case TaskStatus.ioDo:
         return "To Do";
         break;
       case TaskStatus.inProgress:
